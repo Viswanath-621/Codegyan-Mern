@@ -255,602 +255,597 @@ h2{
     position: relative;
 }
 
-.paytm-features{
-    background-color: #00baf2;
+.recharge
+{
     display: block;
-    padding: 4% 5%;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    overflow:auto;
+    background:#00baf2;
+    margin: auto;
+    width: 100%;
+    height: 324px;
+    padding: 65px 0;
+    overflow: scroll;
+    scrollbar-color: #00baf2;
 }
 
-.paytm-features h1{
-    color: white;
-    margin-top: 0%;
-    margin-bottom:5% ;
-    font-size: 2rem;
-}
-
-.grids{
-    margin-left:2%;
+.recharge h1
+{
+    font-size: 36px;
+    color: #fff;
+    margin-left: 110px;
+    font-weight: 700;
     display: flex;
-    justify-content: space-around;
-    text-align: left;
+    align-items: center;
 }
 
-.grids div{
-    padding: 2%;
+.recharge .flex7
+{
+    display: flex;
+    width: 1260px;
+    height: 183px;
+    margin-top: 25px;
+    margin-left: 110px;
+    overflow-x: hidden;
+}
+
+.recharge .flex7 .box1
+{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-right: -1px;
+    margin-bottom: 14px;
     cursor: pointer;
-    width: 140px;
-    margin-right: 32px;
     border-radius: 12px;
     padding: 16px 11px 16px 16px;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 17px;
     color: #fff;
     font-weight: 500;
     line-height: 25px;
 }
 
-.grids div:hover{
-    /*background-color: #103c84;
-    */ 
-    background-color: #00afe3;
-}
-
-
-
-.grids img{
+.recharge .flex7 .box1 img
+{
     width: 64px;
-background: #fff;
-border-radius: 100%;
+    margin-bottom: 17px;
+    background: #fff;
+    border-radius: 100%;
 }
 
-.paytm-purchases{
-    background-color:#104c8c ;
+.recharge .flex7 :hover
+{
+    background: #00a4e3;
+    margin-bottom: -20px;
+    transition: all .2s ease-in-out;
+}
+
+.instrument
+{
     display: block;
-    padding: 4% 5%;
+    position: relative;
+    width: 1530.4px;
+    height: 761px;
+    background: #f5f7fa;
+    padding-top: 120px;
+    padding: 1 0 48px;
 }
 
-.paytm-purchases h1{
-    color: white;
-    margin-top: 0%;
-    margin-bottom:5% ;
-    font-size: 2rem;
+.instrument h1
+{
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
 }
 
-.paytm-purchases .grids div:hover{
-    background-color: #103c84;
-    
-    /*background-color: #00afe3;*/
+.instrument .ban1
+{
+    display: block;
+    width: 1170px;
+    height: 620px;
+    background: #fff;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
 }
 
-.head5{
-    color: black;
-    margin-top:10%;
-    margin-left: 10%;
-}
-
-.sec5{
+.instrument .ban1 .fast
+{
     display: flex;
-    justify-content: space-between;
-    padding: 5% 0% 5% 5%;
-    margin-top: 2%;
+    width: 1170px;
+    height: 620px;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 80px 50px 80px 115px;
 }
-.upi1{
-    margin-left: 3%;
-}
-.one1{
-    margin-top: 5%;
-    font-size: 60px;
-    margin-left: 3%;
-}
-.two2{
-    font-size: 60px;
-    margin-left: 3%;
-}
-.para1{
-    font-size: 24px;
-    font-weight: normal;
-    margin-left: 3%;
-    margin-top: 6%;
-}
-#app1{
-   border: 1px solid black;
-   width:38%;
-   border-radius: 23px;
-   padding: 2%;
-   background-color: black;
-   color: white;
-   font-size: 17px;
-   margin-left: 4%;
-   margin-top: 6%;
-   cursor: pointer;
-}
-#app1:hover{
-    background-color: white;
-    color: black;
-}
-#app1 i{
-    margin: 0% 2%;
-}
-.sec6{
 
+.instrument .ban1 .fast .wallet
+{
+    display: block;
+    width: 45%;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -155px;
+}
+
+.instrument .ban1 .fast .wallet .wallie
+{
+    width: 175px;
     display: flex;
-    justify-content: space-between;
-    padding: 5% 0% 5% 5%;
-    margin-top: 2%;
-}
-.upi2{
-    margin-left: 3%;
-}
-.one11{
-    margin-top: 5%;
-    font-size: 60px;
-    margin-left: 3%;
-}
-.two22{
-    font-size: 60px;
-    margin-left: 3%;
-}
-.three{
-    font-size: 60px;
-    margin-left: 3%;
-}
-.para2{
-    font-size: 24px;
-    font-weight: normal;
-    margin-left: 3%;
-    margin-top: 6%;
-}
-#app2{
-   border: 1px solid black;
-   width:38%;
-   border-radius: 23px;
-   padding: 2%;
-   background-color: black;
-   color: white;
-   font-size: 17px;
-   margin-left: 4%;
-   margin-top: 6%;
-   cursor: pointer;
-}
-#app2:hover{
-    background-color: white;
-    color: black;
-}
-#app2 i{
-    margin: 0% 2%;
-}
-.sec7{
-
-    display: flex;
-    justify-content: space-between;
-    padding: 5% 0% 5% 5%;
-    margin-top: 2%;
-}
-.upi3{
-    margin-left: 3%;
-}
-.one111{
-    margin-top: 5%;
-    font-size: 58px;
-    margin-left: 3%;
+    gap: 10px;
+    align-items: center;
 }
 
-.para3{
-    font-size: 24px;
-    font-weight: normal;
-    margin-left: 3%;
-    margin-top: 6%;
+.instrument .ban1 .fast .wallet .wallie img
+{
+    height: 77px;
+    width: auto;
+    padding-right: 12px;
 }
-#app3{
-    border: 1px solid rgb(6,6,123);
-    width:20%;
-    border-radius: 23px;
-    padding: 2%;
-    background-color: rgb(6,6,123);
-    color: white;
+
+.instrument .ban1 .fast .wallet2
+{
+    display: block;
+    margin-top: 48px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.instrument .ban1 .fast .wallet2 h1
+{
+    margin-top: 48px;
+    /* width: 390px; */
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-bottom: 0;
+}
+
+.instrument .ban1 .fast .wallet2 span
+{
+    padding: 24px 0 30px;
+    display: block;
     font-size: 17px;
-    margin-left: 4%;
-    margin-top: 6%;
-    cursor: pointer;
- }
- #app3:hover{
-     background-color: aqua;
-     color:white;
- }
- #app2 i{
-     margin: 0% 2%;
- }
- .sec8{
+    font-weight: 500;
+    line-height: 26px;
+}
 
+
+.instrument .ban1 .fast .wallet .downloadpay
+{
     display: flex;
-    justify-content: space-between;
-    padding: 5% 0% 5% 5%;
-    margin-top: 2%;
-}
-.upi4{
-    margin-left: 3%;
-}
-.one1111{
-    margin-top: 5%;
-    font-size: 58px;
-    margin-left: 3%;
-}
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    line-height: 1px;
+    padding: 0 24px;
+    margin-top: 6px;
 
-.para4{
-    font-size: 24px;
-    font-weight: normal;
-    margin-left: 3%;
-    margin-top: 6%;
-}
-.sec9{
+    width: 253.29px;
+    height: 45.6px;
+    border: 1px solid black;
+    border-radius: 50px;
 
-    display: flex;
-    justify-content: space-between;
-    padding: 5% 0% 5% 5%;
-    margin-top: 2%;
-}
-.upi5{
-    margin-left: 3%;
-}
-.one11111{
-    margin-top: 5%;
-    font-size: 40px;
-    margin-left: 3%;
-}
-
-.para5{
-    font-size: 24px;
-    font-weight: normal;
-    margin-left: 3%;
-    margin-top: 6%;
-}
-#app4{
-    border: 1px solid rgb(6,6,123);
-    width:20%;
-    border-radius: 23px;
-    padding: 2%;
-    background-color: rgb(6,6,123);
+    background: black;
     color: white;
-    font-size: 17px;
-    margin-left: 4%;
-    margin-top: 6%;
-    cursor: pointer;
- }
- #app4:hover{
-     background-color: aqua;
-     color:white;
- }
- #app4 i{
-     margin: 0% 2%;
- }
- .sec10{
-
-    display: flex;
-    justify-content: space-between;
-    padding: 5% 0% 5% 5%;
-    margin-top: 2%;
-}
-.upi6{
-    margin-left: 3%;
-}
-.upi7{
-    margin-right: 20%;
-}
-.one111111{
-    margin-top: 5%;
-    font-size: 40px;
-    margin-left: 3%;
-}
-
-.para6{
-    font-size: 24px;
-    font-weight: normal;
-    margin-left: 3%;
-    margin-top: 6%;
-}
-#app5{
-    border: 1px solid rgb(6,6,123);
-    width:30%;
-    border-radius: 23px;
-    padding: 2%;
-    background-color: rgb(6,6,123);
-    color: white;
+    font-weight: 500;
     font-size: 15px;
-    margin-left: 4%;
-    margin-top: 6%;
+}
+.downloadpay:hover{
+    background-color: rgba(255,255,255,1);
     cursor: pointer;
- }
- #app5:hover{
-     background-color: aqua;
-     color:white;
- }
- .section10{
-    margin-top:0%;
-    padding:6%;
-    display: flex;
-    justify-content:center;
-    background-color:white;
 }
-.div5{
-  margin: 5%;
-}
-.div5 h1{
-  padding-top: 2%;
-  font-size:2.7rem;
-}
-.div5 p{
-  font-size:1.3rem;
-  font-family:Arial, Helvetica, sans-serif;
-}
-  
-  .section11{
-    display:flex;
-    justify-content:center;
-    padding:5%;
-  }
-  .div10{
-    padding:4% 5% 2% 16%
-  }
-  .div10 h1{
-    font-size:2.7rem;
-  }
-  .div10 p{
-    font-size:1.3rem;
-    font-family:Arial, Helvetica, sans-serif;
-  }
-  
- .sec12{
 
+.paybank
+{
+    /* display: block; */
     display: flex;
     justify-content: space-between;
-    padding: 5% 0% 5% 5%;
-    margin-top: 2%;
+    background: #f5f7fa;
+    width: 100%;
+    height: 728px;
+    margin: auto;
+    padding: 0 0 130px;
+    /* flex-direction: row; */
 }
-.upi9{
-    margin-left: 3%;
+
+.paybank .bank1
+{
+    display: block;
+    background: #fff;
+    border-radius: 16px;
+    padding: 70px 64px 0;
+    margin-right: 48px;
+    margin-left: 180px;
+    position: relative;
+    width: 561px;
+    height: 630px;
 }
-.upi10{
-    margin-right: 20%;
-}
-.one2{
-    margin-top: 5%;
+
+.paybank .bank1 h1
+{
+    padding-top: 28px;
     font-size: 40px;
-    margin-left: 3%;
+    font-weight: 700;
+    line-height: 48px;
+    color: #000;
 }
 
-.para8{
-    font-size: 24px;
-    font-weight: normal;
-    margin-left: 3%;
-    margin-top: 6%;
-}
-#app7{
-    border: 1px solid rgb(6,6,123);
-    width:30%;
-    border-radius: 23px;
-    padding: 2%;
-    background-color: rgb(6,6,123);
-    color: white;
-    font-size: 15px;
-    margin-left: 4%;
-    margin-top: 6%;
-    cursor: pointer;
- }
- #app7:hover{
-     background-color: aqua;
-     color:white;
- }
- .sec13{
-
-    display: flex;
-    justify-content: space-between;
-    padding: 5% 0% 5% 5%;
-    margin-top: 2%;
-}
-.upi11{
-    margin-left: 3%;
-}
-.one3{
-    margin-top: 5%;
-    font-size: 40px;
-    margin-left: 3%;
-}
-
-.para9{
-    font-size: 24px;
-    font-weight: normal;
-    margin-left: 3%;
-    margin-top: 6%;
-}
-#app8{
-    border: 1px solid rgb(6,6,123);
-    width:30%;
-    border-radius: 23px;
-    padding: 2%;
-    background-color: rgb(6,6,123);
-    color: white;
-    font-size: 15px;
-    margin-left: 4%;
-    margin-top: 6%;
-    cursor: pointer;
- }
- #app8:hover{
-     background-color: aqua;
-     color:white;
- }
- .sec14{
-
-    display: flex;
-    justify-content: space-between;
-    padding: 5% 0% 5% 5%;
-    margin-top: 2%;
-}
-.upi12{
-    margin-left: 3%;
-}
-.one4{
-    margin-top: 5%;
-    font-size: 40px;
-    margin-left: 3%;
-}
-
-.para10{
+.paybank .bank1 p
+{
     font-size: 20px;
-    font-weight: normal;
-    margin-left: 3%;
-    margin-top: 6%;
-}
-#app9{
-    border: 1px solid rgb(6,6,123);
-    width:30%;
-    border-radius: 23px;
-    padding: 2%;
-    background-color: rgb(6,6,123);
-    color: white;
-    font-size: 15px;
-    margin-left: 4%;
-    margin-top: 6%;
-    cursor: pointer;
- }
- #app9:hover{
-     background-color: aqua;
-     color:white;
- }
- .sec15{
-    background-color: white;
-    text-align: center;
-}
-.head6{
-    font-size: 35px;
-    color: black;
-    text-align: left;
-    padding-left: 7%;
-    padding-top: 4%;
-}
-.div5{
-    display: flex;
-    justify-content: space-between;
-    padding: 6%;
-    margin-left: 4%;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
+    font-weight: 500;
     line-height: 30px;
 }
-.div5 a{
-    text-decoration: none;
-    color: black;
+
+.paybank .bank2
+{
+    display: block;
+    background: #fff;
+    border-radius: 16px;
+    padding: 70px 64px 0;
+    margin-right: 208px;
+    position: relative;
+    width: 561px;
+    height: 630px;
 }
 
+.paybank .bank2 h1
+{
+    padding-top: 28px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #000;
+}
 
+.paybank .bank2 p
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
 
-.section14{
-    display:flex;
-    justify-content:space-between;
-    background-color:white;
-    padding-left:9%;
-    padding-top:15%;
-  }
-  .div15{
-    display:flex;
-    justify-content:space-between;
-  }
-  .div15 a{
-    background-color:rgb(123, 216, 247);
-    text-decoration:none;
-    text-align:center;
-    margin-right:5%;
-    padding: 0.6% 0.6% 0% 0.6%;
-    color:white;
-    border-radius:10px;
-  }
-  
-  .div15 a:hover{
-    background-color:rgb(2, 191, 253)
-  }
-  .div14{
-    padding-left:5%;
-    padding-right:3%;
-  }
-  .div14 p{
-    font-size:1.1rem;
-    font-family:Arial, Helvetica, sans-serif;
-    padding-top:10%;
-  }
-  .lm{
-    text-decoration:none;
-    color:rgb(2, 191, 253);
-  }
-  .lm:hover{
-    color:rgb(1, 1, 110);
-  }
-  .section15{
-    display:flex;
-    padding-top:8%;
-    background-color:white;
-    padding-bottom: 10%;
-  }
-  .div16{
-    display:flex;
-  
-  }
-  .div16 a{
-    text-decoration:none;
-    text-align:left;
-    color:white;
-    background-color:rgb(75, 210, 255);
-    padding:30px 11px 11px;
-    border-radius:10px;
-  }
-  
-  .div16 a:hover{
-    background-color:rgb(2, 191, 253);
-  }
-  .div16 span{
-    margin-top:2%;
-    font-size:1.3rem;
-  }
-  .div16 p{
-    font-size:0.8rem;
-  }
-  .div17{
-    padding-top:2%;
-    padding-left:13%;
-    padding-right:2%;
-  }
-  .div17 p{
-    font-size:1.1rem;
-    font-family:Arial, Helvetica, sans-serif;
-    padding-top:10%;
-  }
-  .div18 h3{
-    padding-top:5%;
-    padding-left:6%;
-    padding-right:2%;
+.finance
+{
+    background: #fff;
+    position: relative;
+    display: block;
+    padding: 0 0 48px;
+}
+
+.finance h1
+{
+    padding-top: 120px;
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.sincere
+{
+    display: block;
+    background: #fff;
+    padding-bottom: 72px;
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.sincere .finger
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+
+.sincere .finger .fingerleft
+{
+    display: block;
+    width: 40%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sincere .finger .fingerleft h1
+{
+    display: block;
+    margin-top: -75px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.sincere .finger .fingerleft p
+{
+    padding-top: 12px;
+    display: block;
+    width: 515px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.sincere .finger .fingerleft span
+{
+    background: #002970;
+    padding: 16px 24px;
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+/* ========================================================== */
+.finance2
+{
+    background: #f5f7fa;
+    background-image: url("./assets/asset 32.avif");
+    background-size: cover;
+    position: relative;
+    display: block;
+    padding: 0 0 48px;
+}
+
+.sincere2
+{
+    display: block;
+    background: transparent;
+    padding-bottom: 72px;
+    border-radius: 10px;
+    width: 1170px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.sincere2 .finger2
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+
+.sincere2 .finger2 .fingerright
+{
+    display: block;
+    width: 40%;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 110px;
+}
+
+.sincere2 .finger2 .fingerright h1
+{
+    display: block;
+    margin-top: 23px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.sincere2 .finger2 .fingerright p
+{
+    padding-top: 12px;
+    display: block;
+    width: 515px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.sincere2 .finger2 .fingerright span
+{
+    background: #002970;
+    padding: 16px 24px;
+    border-radius: 25px;
+    width: 120px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.business
+{
+    display: block;
+    background: #fff;
+    width: 1170px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.business h1
+{
+    padding-bottom: 89px;
+    width: 480px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.business .smallbox
+{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.business .smallbox .sbox1
+{
+    display: block;
+    width: 21.5%;
+    margin-right: 70px;
+}
+
+.business .smallbox .sbox1 h1
+{
+    display: block;
+    padding: 40px 0 20px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.business .smallbox .sbox1 p
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.wealth
+{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px 0 60px 60px;
+    margin-bottom: 33px;
+    display: flex;
+}
+
+.wealth .wealthleft
+{
+    width: 200px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.wealth .wealthleft img
+{
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 58px;
+    padding-right: 10px;
+}
+
+.wealth .wealthleft p
+{
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.wealth .rightwealth
+{
+    /* display: block; */
+    width: 870px;
+    position: relative;
+
+    display: flex;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+.wealth .rightwealth .wbox1
+{
+    padding-right: 36px;
+    white-space: nowrap;
+}
+
+.wealth .rightwealth .wbox2
+{
+    border-radius: 10px;
+    background: #00baf2;
+    opacity: .7;
+    padding: 5px 0;
+    white-space: normal;
+    text-align: center;
+    cursor: pointer;
+    width: 155px;
+    height: 230px;
+    min-width: 155px;
+    min-height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wealth .rightwealth .wbox2 img
+{
+    overflow: hidden;
+    border-radius: 6px;
+    z-index: 1;
+    width: 145px;
+    height: 158px;
+    transition: .3s;
+}
+
+.wealth .rightwealth .wbox2 span
+{
+    padding: 16px 0;
+    display: block;
+    width: 114px!important;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.wealth .rightwealth .wbox2:hover
+{
+    opacity: 1;
+}
+
+/* ============ Footer =========================== */
+.div18 h3 
+{
+    padding-top: 7%;
+    padding-left: 6%;
+    padding-right: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-  }
-  .div18{
-    display:flex;
-  }
-  .div18 a{
-    padding-top:6%;
-    padding-right:1%;
-  }
-  .div18 div{
-    display:flex;
-    padding-top:6.5%;
-    padding-left:25%;
-    font-size:1.5rem;
-  
-  }
-  .div18 div a{
-    color:grey;
-    padding-left:70%;
-  }
+}
+.div18 
+{
+    display: flex;
+    background: #f5f7fa;;
+}
+.div18 a 
+{
+    padding-top: 6%;
+    padding-right: 1%;
+}
+.div18 div 
+{
+    display: flex;
+    padding-top: 6.5%;
+    padding-left: 30%;
+    font-size: 1.5rem;
+}
+.div18 div a 
+{
+    color: grey;
+    padding-left: 70%;
+}
   .line{
     padding:0% 40.1%;
     border-width:1px;
